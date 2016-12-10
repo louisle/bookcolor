@@ -1,0 +1,146 @@
+.attachment ul li{
+  overflow: hidden;
+}
+.attachment .file-name{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  width: 100%;
+} 
+.select2-container--default .select2-selection--single .select2-selection__rendered .user-avatar,
+.select2-results__option .user-avatar,
+a.user-link img  {
+    width: 26px;
+    height: 26px;
+    border-radius: 35%;
+    margin-right: 5px;
+}
+.preview-wrap {
+    display: table;
+    height: 140px;
+    width: 140px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.preview-wrap a {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.preview-wrap.add-button {
+    border-style: dashed;
+    cursor: pointer;
+}
+.preview-wrap.add-button label {
+    text-align: center;
+    width: 100%;
+    margin-top: 48px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.preview-wrap a img {
+    max-width: 138px;
+    height: auto!important;
+    border: 0px !important;
+    padding: 0!important;
+    margin-bottom: 0px !important;
+}
+.preview-wrap span.glyphicon.glyphicon-save-file ,
+.preview-wrap span.glyphicon.glyphicon-plus{
+    font-size: 70px;
+    display: table-cell;
+    margin: 22px;
+}
+img.lazy{
+    background-color: #fff ;
+    background-image: url("../images/lazy-loading.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 34px;
+    min-height: 34px;
+}
+img.lazy.lazy-complete{
+    background-image: none;
+}
+ul.messages li img.avatar, img.avatar {
+    height: 46px;
+    width: 46px;
+}
+.image-viewer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.image-viewer-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.image-viewer-wrap{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+    margin: auto;
+    text-align: center;
+}
+.image-viewer-wrap img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100px;
+    min-height: 100px;
+}
+.image-viewer-close{
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.activity-item:nth-child(2n+1) {
+    background: rgb(247, 247, 247);
+    padding: 5px 5px 0px 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.activity-item:nth-child(2n) {
+    background: rgba(247, 247, 247, 0.4);
+    padding: 5px 5px 0px 5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.size-upfile-block {
+    background: rgba(51, 122, 183, 0.07);
+    border: 1px solid rgba(51, 122, 183, 0.14);
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+.attachment {
+    margin-top: 10px;
+}
+.textarea_editable{
+    opacity: 0;
+    padding: 10px;
+}
+.textarea_editable.form-element{
+    border: 0;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+    background: rgba(42, 63, 84, 0.08);
+}
+.textarea_editable.form-element,
+.textarea_editable.form-textarea{    
+    opacity: 1;
+    width: 800px;
+    max-width: 100%;
+}
