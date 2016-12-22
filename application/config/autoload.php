@@ -103,7 +103,7 @@ $autoload['helper'] = array('url', 'oauth_helper');
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array('files');
+$autoload['config'] = array('files', 'site');
 
 /*
 | -------------------------------------------------------------------

@@ -1,21 +1,15 @@
 <div class="title_right">
   <div class="col-xs-12 form-group pull-right top_search">
     <div class="row">
-      <div class="col-md-5 col-xs-12">
-        <div class="pull-right">
-          <div class="input-group">
-            <a href="/admin/blogs/add" class="btn btn-xs btn-primary">Tạo mới</a>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-sm-offset-6 col-md-offset-9">
+        <?php $this->load->view('seller/component/search-bar.php', array('action'=>'/admin/blogs')); ?>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="pull-right">
+              <a href="/admin/blogs/add" class="btn btn-xs btn-primary">Tạo mới</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-7 col-xs-12">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Tìm kiếm...">
-          <span class="input-group-btn">
-              <button class="btn btn-default" type="button">Gửi!</button>
-          </span>
-        </div>
-      </div>
     </div>
   </div>
 </div>

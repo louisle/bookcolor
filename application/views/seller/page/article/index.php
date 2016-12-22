@@ -46,10 +46,12 @@
 		          </td>
 		          <td>
 		          	<ul>
+		          	<?php $count = 0; ?>
 		          	<?php foreach($article->blogs as $blog): ?>
+		          	<?php if($count > 3){break;} $count++; ?>
 		          		<li>
-										<a href="/admin/blogs/edit?id=<?php echo $blog->id ?>"><?php echo $blog->title ?></a>
-									</li>
+							<a href="/admin/blogs/edit?id=<?php echo $blog->id ?>"><?php echo $blog->title ?></a>
+						</li>
 		          	<?php endforeach; ?>
 		          	</ul>
 		          </td>
