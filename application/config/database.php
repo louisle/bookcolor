@@ -75,17 +75,17 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'bookcolor',
+	'hostname' => 'ec2-54-163-230-198.compute-1.amazonaws.com',
+	'username' => 'adupzanotldntu',
+	'password' => 'bdd368169731790f3add4790d43a284d3f18566bf870666f325822187672432b',
+	'database' => 'dcs0hhubre315v',
 
 	// 'hostname' => 'sql6.freesqldatabase.com',
 	// 'username' => 'sql6127222',
 	// 'password' => 'muFBBT6C2B',
 	// 'database' => 'sql6127222',
 
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'pgsql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => FALSE,//(ENVIRONMENT !== 'production'),
