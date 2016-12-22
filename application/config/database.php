@@ -85,7 +85,7 @@ $db['default'] = array(
 	// 'password' => 'muFBBT6C2B',
 	// 'database' => 'sql6127222',
 
-	'dbdriver' => 'pgsql',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => FALSE,//(ENVIRONMENT !== 'production'),
