@@ -22,18 +22,28 @@ class Doctrine
 		// Load the database configuration from CodeIgniter
 		require APPPATH . 'config/database.php';
 
+// 		$connection_options = array(
+// 			'driver'		=> 'pdo_mysql',
+// 			'user'			=> $db['default']['username'],
+// 			'password'		=> $db['default']['password'],
+// 			'host'			=> $db['default']['hostname'],
+// 			'dbname'		=> $db['default']['database'],
+// 			'charset'		=> $db['default']['char_set'],
+// 			'driverOptions'	=> array(
+// 				'charset'	=> $db['default']['char_set'],
+// 			),
+// 		);
 		$connection_options = array(
-			'driver'		=> 'pdo_mysql',
-			'user'			=> $db['default']['username'],
-			'password'		=> $db['default']['password'],
-			'host'			=> $db['default']['hostname'],
-			'dbname'		=> $db['default']['database'],
+			'driver'		=> 'pdo_pgsql',
+			'user'			=> "adupzanotldntu",
+			'password'		=> "bdd368169731790f3add4790d43a284d3f18566bf870666f325822187672432b",
+			'host'			=> "ec2-54-163-230-198.compute-1.amazonaws.com",
+			'dbname'		=> "dcs0hhubre315v",
 			'charset'		=> $db['default']['char_set'],
 			'driverOptions'	=> array(
 				'charset'	=> $db['default']['char_set'],
 			),
 		);
-
 		// With this configuration, your model files need to be in application/models/Entity
 		// e.g. Creating a new Entity\User loads the class from application/models/Entity/User.php
 		$models_namespace = 'Entity';
