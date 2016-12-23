@@ -1,5 +1,5 @@
 <?php
-class CLog {
+class Clog {
   protected $CI;
   protected $em;
   function __construct(){
